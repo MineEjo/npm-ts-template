@@ -1,0 +1,34 @@
+{
+  "name": "CHANGE_IT",
+  "version": "CHANGE_IT",
+  "description": "CHANGE_IT",
+  "main": "dist/index.js",
+  "browser": "dist/CHANGE_IT.min.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "node dist/",
+    "start": "npm run build && npm run test",
+    "build": "tsc -b . && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "CHANGE_IT"
+  },
+  "keywords": [
+    "CHANGE_IT"
+  ],
+  "author": "CHANGE_IT",
+  "license": "CHANGE_IT",
+  "bugs": {
+    "url": "CHANGE_IT/issues"
+  },
+  "homepage": "CHANGE_IT#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@types/node": "^18.6.0",
+    "rollup": "^2.77.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.7.4"
+  }
+}
