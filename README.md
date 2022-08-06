@@ -6,6 +6,12 @@ A template for writing [NPM](https://www.npmjs.com/) packages for use in Nodejs 
 
 Look at all the files for the words `CHANGE_IT` - you need to replace them with your own.
 
+Below are the required commands, write them down one by one.
+
+```bash
+$ npm install
+```
+
 ## Uploading to [NPM](https://www.npmjs.com/)
 
 - `.gitignore` ignores the build folder, and `.npmignore` ignores almost everything except it.
